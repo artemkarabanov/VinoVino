@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+}
+.header-top {
+  width: 100%;
+  height: 35px;
+  background-color: black;
+  margin: 0 auto 30px;
+
+  .header-top__title {
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: "Roboto";
+    @media (max-width: 1200px) {
+      font-size: 10px;
+      padding-top: 5px;
+    }
+  }
+}
+.header-center {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .header-logo {
+    width: 73px;
+    height: 113px;
+  }
+  .header__logo {
+    width: 73px;
+    height: 113px;
+    @media (max-width: 1200px) {
+      width: 53px;
+      height: 93px;
+    }
+  }
+  .header-center-right {
+    width: 90%;
+    height: 113px;
+  }
+  .header-click-one {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .info__one {
+    border-radius: 1px solid #bdbdbd;
+    width: 170px;
+  }
+  .info-two {
+    padding: 3px 8px;
+    margin-left: 20px;
+    color: #ba9f65;
+    font-family: "Roboto";
+    font-size: 10px;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 1200px) {
+      margin-left: 0;
+    }
+  }
+  .header-click-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    @media (max-width: 1200px) {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      margin-top: 0;
+    }
+  }
+  .text {
+    padding: 10px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    color: black;
+    @media (max-width: 1200px) {
+      font-size: 10px;
+    }
+  }
+}
+.header-font {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../img/photo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .header-font-text {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    @media (max-width: 1200px) {
+      text-align: center;
+      width: 100%;
+    }
+  }
+  .header-font-text__title {
+    font-family: "Oswald";
+    font-size: 80px;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+    margin: 50px 0 40px;
+    padding: 50px 0 0 0;
+    @media (max-width: 1200px) {
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+  .header-font-text__subtitle {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    @media (max-width: 1200px) {
+      text-align: center;
+      width: 100%;
+    }
+  }
+  .button-stylish {
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .button-stylish__click {
+    transition: 0.3s;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    background-color: #ba9f65;
+    color: white;
+    padding: 8px 15px;
+    margin-bottom: 80px;
+  }
+  .button-stylish__click:hover {
+    opacity: 0.5;
+  }
+}
+.header-bottom {
+  width: 90%;
+  margin: 50px auto;
+  .header-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 1200px) {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+  }
+  .header-content {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-content-text {
+    font-family: "Oswald";
+    font-size: 22px;
+    @media (max-width: 1200px) {
+      font-size: 12px;
+    }
+  }
+}
+.header-title {
+  width: 60%;
+  margin: 50px auto 100px;
+  display: flex;
+  flex-direction: column;
+  .header-title-text {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 35px;
+    font-style: italic;
+    font-family: "Oswald";
+    @media (max-width: 1200px) {
+      font-size: 20px;
+    }
+  }
+  .header-title-text-one {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Oswald";
+    font-size: 19px;
+    font-weight: 900;
+    @media (max-width: 1200px) {
+      font-size: 8px;
+    }
+  }
+}
